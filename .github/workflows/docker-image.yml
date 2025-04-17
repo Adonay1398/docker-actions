@@ -22,4 +22,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: adonqy/test1:latest
+          tags: adonay/test1:latest
