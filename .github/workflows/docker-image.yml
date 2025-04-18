@@ -22,4 +22,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: adonay1398/test1:latest
+          tags:  |
+            adonay1398/test1:latest
+            adonay1398/test1:v-${{ github.run_id}}
